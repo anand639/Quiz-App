@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Quiz Application 🎓
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a fully functional Quiz Application built using React.js. The application allows users to select a subject, take a quiz, and receive their scores along with pass/fail status upon completion. Additional features include a timer, difficulty levels, and a leaderboard to enhance the user experience.
 
-## Available Scripts
+## Table of Contents 📑
 
-In the project directory, you can run:
+- [Features](#features) ✨
+- [Project Structure](#project-structure) 🗂️
+- [Setup and Installation](#setup-and-installation) 🔧
+- [Running the Application](#running-the-application) 🏃
+- [Technologies Used](#technologies-used) 💻
 
-### `npm start`
+## Features ✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User can input their name and select a subject and difficulty level.
+- Quiz questions are displayed based on the selected subject and difficulty level.
+- Timer for each question.
+- Score calculation based on correct and incorrect answers.
+- Display final score and pass/fail status.
+- Leaderboard to track top scores.
+- Responsive and user-friendly UI.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure 🗂️
+quiz-application/
 
-### `npm test`
+├── public/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+│ ├── index.html
 
-### `npm run build`
+│ └── ...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+├── src/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+│ ├── components/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+│ │ ├── CustomButton.js
 
-### `npm run eject`
+│ │ ├── Dialog.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+│ │ ├── Timer.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+│ │ └── Leaderboard.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+│ ├── pages/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+│ │ ├── TestInfo.js
 
-## Learn More
+│ │ ├── StartTest.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+│ │ └── Greeting.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+│ ├── styles/
 
-### Code Splitting
+│ │ ├── App.module.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+│ │ ├── CustomButton.module.css
 
-### Analyzing the Bundle Size
+│ │ ├── TestInfo.module.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+│ │ ├── StartTest.module.css
 
-### Making a Progressive Web App
+│ │ ├── Greeting.module.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+│ │ ├── Timer.module.css
 
-### Advanced Configuration
+│ │ └── Leaderboard.module.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+│ ├── App.js
 
-### Deployment
+│ ├── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+│ └── ...
 
-### `npm run build` fails to minify
+├── package.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+├── README.md
+
+└── ...
+
+
+## Setup and Installation
+
+### Prerequisites
+
+- Node.js and npm (Node Package Manager) installed on your machine. You can download them from [Node.js official website](https://nodejs.org/).
+
+### Steps to Set Up the Project
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/quiz-application.git
+    cd quiz-application
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+    This will install the necessary packages, including `react-router-dom` and `@mui/material` for routing and Material-UI components.
+
+
+
+## Running the Application
+
+1. **Start the development server**:
+    ```bash
+    npm start
+    ```
+
+    This command will start the React development server. Open your browser and navigate to `http://localhost:3000` to see your application running.
+
+## Technologies Used
+
+- React.js: A JavaScript library for building user interfaces.
+- React Router: For routing between different pages.
+- Material-UI: A popular React UI framework for creating responsive, modern components.
+- CSS Modules: For styling components with modular and scoped CSS.
+
+
+
+
