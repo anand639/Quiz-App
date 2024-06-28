@@ -9,8 +9,6 @@ This is a fully functional Quiz Application built using React.js. The applicatio
 - [Setup and Installation](#setup-and-installation)
 - [Running the Application](#running-the-application)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
