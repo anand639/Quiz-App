@@ -1,16 +1,16 @@
-# Quiz Application
+# Quiz Application 🎓
 
 This is a fully functional Quiz Application built using React.js. The application allows users to select a subject, take a quiz, and receive their scores along with pass/fail status upon completion. Additional features include a timer, difficulty levels, and a leaderboard to enhance the user experience.
 
-## Table of Contents
+## Table of Contents 📑
 
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Setup and Installation](#setup-and-installation)
-- [Running the Application](#running-the-application)
-- [Technologies Used](#technologies-used)
+- [Features](#features) ✨
+- [Project Structure](#project-structure) 🗂️
+- [Setup and Installation](#setup-and-installation) 🔧
+- [Running the Application](#running-the-application) 🏃
+- [Technologies Used](#technologies-used) 💻
 
-## Features
+## Features ✨
 
 - User can input their name and select a subject and difficulty level.
 - Quiz questions are displayed based on the selected subject and difficulty level.
@@ -20,7 +20,7 @@ This is a fully functional Quiz Application built using React.js. The applicatio
 - Leaderboard to track top scores.
 - Responsive and user-friendly UI.
 
-## Project Structure
+## Project Structure 🗂️
 quiz-application/
 
 ├── public/
