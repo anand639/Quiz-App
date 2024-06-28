@@ -15,13 +15,21 @@ const Greeting = () => {
 		setLeaderboard(leaderboardData);
 	}, []);
 
+	const handleClearLeaderboard = () => {
+		localStorage.removeItem("leaderboard");
+		setLeaderboard([]);
+	};
+
 	return (
 		<div className={styles.container}>
 			<h1>Hey {localStorage.getItem("name")}!</h1>
-			<h2>You have scored: {score}/10</h2>
-			<h3>Status: {score >= 10 ? "PASS" : "FAIL"}</h3>
+			<h2>You have scored: {score}</h2>
+			<h3 className={score >= 10 ? styles.pass : styles.fail}>
+				Status: {score >= 4 ? "PASS 😊" : "FAIL 😞"}
+			</h3>
 			<button onClick={() => navigate("/")}>Go to home page</button>
 			<Leaderboard scores={leaderboard} />
+			<button onClick={handleClearLeaderboard}>Clear Leaderboard</button>
 		</div>
 	);
 };

@@ -10,8 +10,7 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
 	margin: 10px;
 }
 
@@ -29,4 +28,34 @@ button {
 
 button:hover {
 	background-color: darkred;
+}
+
+.pass {
+	color: green;
+	animation: passAnimation 1s ease-in-out infinite;
+}
+
+.fail {
+	color: red;
+	animation: failAnimation 1s ease-in-out infinite;
+}
+
+@keyframes passAnimation {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+}
+
+@keyframes failAnimation {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.9);
+	}
 }
