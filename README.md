@@ -24,32 +24,59 @@ This is a fully functional Quiz Application built using React.js. The applicatio
 
 ## Project Structure
 quiz-application/
+
 ├── public/
+
 │ ├── index.html
+
 │ └── ...
+
 ├── src/
+
 │ ├── components/
+
 │ │ ├── CustomButton.js
+
 │ │ ├── Dialog.js
+
 │ │ ├── Timer.js
+
 │ │ └── Leaderboard.js
+
 │ ├── pages/
+
 │ │ ├── TestInfo.js
+
 │ │ ├── StartTest.js
+
 │ │ └── Greeting.js
+
 │ ├── styles/
+
 │ │ ├── App.module.css
+
 │ │ ├── CustomButton.module.css
+
 │ │ ├── TestInfo.module.css
+
 │ │ ├── StartTest.module.css
+
 │ │ ├── Greeting.module.css
+
 │ │ ├── Timer.module.css
+
 │ │ └── Leaderboard.module.css
+
 │ ├── App.js
+
 │ ├── index.js
+
 │ └── ...
+
 ├── package.json
+
 ├── README.md
+
 └── ...
 
 
